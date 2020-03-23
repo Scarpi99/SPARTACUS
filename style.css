@@ -1,0 +1,63 @@
+nav {
+	color: green;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(SpartacusTitelbild.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: screen;
+  background-color: grey;
+}
+
+h3, h5 {
+	font-family: strong;
+	text-align: center;
+	color: #344747;
+}
+
+h3 {
+	font-size: 4rem;
+	padding-top: 115px;
+}
+
+hr {
+	border-color: #344747;
+	border-width: 3px;
+	margin-top: 50px;
+	max-width: 40px;
+}
+
+.btn-secondary {
+	display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 150px;
+    height: 40px;
+    background-color: #344747;
+    color: white;
+    padding: 0.5rem 1rem;
+   	border-radius: 300px;
+   	font-size: 0.9em;
+}
+
+.btn-secondary:hover{
+	background-color: #65584F;
+	transition: transform .2s;
+	transform: scale(1.2);
+}
+
+footer {
+	text-align: center;
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 2.5rem;
+  	font-size: 0.75em;
+}
